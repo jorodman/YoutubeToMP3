@@ -85,7 +85,7 @@ def main():
         print('ffmpeg binary: ' + ffmpeg_bin)
 
         try:
-            convert(ffmpeg_bin)
+            convert(ffmpeg_bin, songs_file)
         except Exception as e: 
             print(e)
     else:
